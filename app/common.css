@@ -184,7 +184,7 @@ body{
 
 @media (max-width: 600px){
     .des{
-        font-size: x-large;
+        font-size: large;
         padding-top: 10vh;
     }
 }
