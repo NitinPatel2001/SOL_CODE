@@ -1,0 +1,46 @@
+<div id="sol-form" class="container">
+    <form id="form-id1">
+        <div class="form-group">
+            <label for="sol-input1">Questions/Answers</label>
+            <select class="form-control" id="sol-input1">
+                <option></option>
+                <!-- <option>Questions</option> -->
+                <option>Answers</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="sol-input2">Topic</label>
+            <select size="1" class="form-control" id="sol-input2" onchange="inputoption3(this)">
+                <option value=""></option>
+                <option value="arrays">Arrays</option>
+                <option value="math">Math</option>
+                <option value="binarysearch">Binary Search</option>
+                <option value="strings">Strings</option>
+                <option value="bitmanipulation">Bit Manipulation</option>
+                <option value="twopointers">Two Pointers</option>
+                <option value="linkedlists">Linked Lists</option>
+                <option value="stacksandqueues">Stacks and Queues</option>
+                <option value="backtracking">Backtracking</option>
+                <option value="hashing">Hashing</option>
+                <option value="heapsandmaps">Heaps and Maps</option>
+                <option value="trees">Trees</option>
+                <option value="dynamicprogramming">Dynamic Programming</option>
+                <option value="greedy">Greedy</option>
+                <option value="graphs">Graphs</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="sol-input3">Question</label>
+            <select size="1" class="form-control" id="sol-input3">
+
+            </select>
+        </div>
+        <button id="sol-submit" type="button" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="embed-responsive-16by9">
+        <iframe id="iframe" class="embed-responsive-item" src=""></iframe>
+        <br>
+        <button id="back" type="button" class="btn btn-primary">Back</button>
+    </div>
+
+    <script src="../app/solution.js"></script>
